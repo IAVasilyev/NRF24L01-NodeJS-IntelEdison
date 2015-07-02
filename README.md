@@ -1,10 +1,10 @@
 # Methods
 
 ##init(SPIn, ce, payld, chnl)
-- SPIn - SPI line number. 0 or 1 (see MRAA SPI)
-- ce - Chip Enabple pin. 
-- payld - payload size in bytes. 
-- chnl - RF Channel 0 - 127 or 0 - 84 in the US.
+- 'SPIn' - SPI line number. 0 or 1 (see MRAA SPI)
+- 'ce' - Chip Enabple pin. 
+- 'payld' - payload size in bytes. 
+- 'chnl' - RF Channel 0 - 127 or 0 - 84 in the US.
 Initialize SPI, set payload and channel (don't write to module, see `config`).
 
 ##config()
